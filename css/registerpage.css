@@ -1,0 +1,64 @@
+.body
+{
+  min-height: 100vh;
+  background:linear-gradient(to left bottom,#0c1ebb,#0b286b,#0e1553,#060c42,#111643,#0d135e,#1d2997);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #c2c2c2;
+}
+.heading
+{
+  font-family: monospace;
+  letter-spacing: -1.5px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.container
+{
+  width: 340px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f6f8fa;
+  background-color: #0c162d;
+}
+.form
+{
+  padding: 16px 16px;
+}
+.btn1
+{
+
+  padding: 5px 10px;
+  color: green;
+  width: 100%;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: green;
+  margin:20px 0;
+  background-color: transparent;
+  box-shadow: 1px 3px 5px rgba(67, 66, 66, 0.3);
+  transition: box-shadow .25s;
+  cursor: pointer;
+}
+.redirect,.heading
+{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.redirect a
+{
+  text-decoration: none;
+  
+}
+.redirect a:hover
+{
+  text-decoration: underline;
+}
+.display
+{
+  text-align: center;
+}
